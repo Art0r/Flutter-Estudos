@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       routes: {
         CounterPage.routeName: (context) => BlocProvider(
               create: (_) => CounterCubit(),
-              child: const CounterPage(),
+              child: CounterPage(),
             ),
       },
     );
